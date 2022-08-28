@@ -130,8 +130,6 @@ a.a_logo .header__logo__text {
     width: 100%;
     max-width: 1400px;
 
-    justify-content: space-evenly;
-
     border-radius: 10px;
     background-color: rgb(40, 40, 50);
 }
@@ -141,7 +139,7 @@ a.a_logo .header__logo__text {
 .menu {
     width: 70px;
 
-    margin: 10px 0px;
+    margin: 10px 10px;
 
     border-radius: 7px;
 
@@ -153,7 +151,7 @@ a.a_logo .header__logo__text {
 .main {
     width: 760px;
 
-    margin: 10px 0px;
+    margin: 10px 10px;
 
     border-radius: 7px;
 
@@ -171,15 +169,19 @@ a.a_logo .header__logo__text {
 .name__block {
     padding: 5px;
 }
+.name__block a {
+    text-decoration: none;
+}
 .name__block__text{
     color: white;
     font-size: 25px;
     
+    font-weight: bold;
 }
 .port .content__block {
     display: flex;
 
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .miniblock {
@@ -188,6 +190,8 @@ a.a_logo .header__logo__text {
     border-radius: 7px;
 
     padding: 10px;
+
+    margin: 5px;
 }
 .miniblock.shir {
     margin-bottom: 20px;
@@ -223,7 +227,7 @@ a.a_logo .header__logo__text {
 .last__news {
     width: 500px;
 
-    margin: 10px 0px;
+    margin: 10px 10px;
 
     border-radius: 7px;
 
