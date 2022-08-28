@@ -181,7 +181,6 @@ a.a_logo .header__logo__text {
 .port .content__block {
     display: flex;
 
-    /* justify-content: space-between; */
 }
 
 .miniblock {
