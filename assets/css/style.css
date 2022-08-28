@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 .wrapper {
     background-color: rgb(46, 46, 56);
 
-    height: 1500px; /* ВРЕМЕННО */
+    min-height: 1400px; /* ВРЕМЕННО */
 }
 
 /* Header */
@@ -120,4 +120,112 @@ a.a_logo .header__logo__text {
 }
 .buy__pro {
     margin: auto 15px;
+}
+
+/* Container */
+
+.container {
+    display: flex;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 1400px;
+
+    justify-content: space-evenly;
+
+    border-radius: 10px;
+    background-color: rgb(40, 40, 50);
+}
+
+/* Menu */
+
+.menu {
+    width: 70px;
+
+    margin: 10px 0px;
+
+    border-radius: 7px;
+
+    background-color: rgb(50, 50, 62);
+}
+
+/* Main */
+
+.main {
+    width: 760px;
+
+    margin: 10px 0px;
+
+    border-radius: 7px;
+
+    background-color: rgb(50, 50, 62);
+}
+.block {
+    margin: 10px;
+
+    background-color: rgb(61, 61, 73);
+
+    border-radius: 7px;
+
+    padding: 10px 15px;
+}
+.name__block {
+    padding: 5px;
+}
+.name__block__text{
+    color: white;
+    font-size: 25px;
+    
+}
+.port .content__block {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.miniblock {
+    background-color: rgb(43, 52, 60);
+
+    border-radius: 7px;
+
+    padding: 10px;
+}
+.miniblock.shir {
+    margin-bottom: 20px;
+}
+.st {
+    width: 250px;
+}
+.pr {
+    width: 250px;
+}
+.dd {
+    width: 170px;
+}
+.name__miniblock {
+    margin-bottom: 10px;
+}
+.shir .name__miniblock {
+    border-bottom: 1px dotted rgb(152, 172, 188);
+}
+.name__miniblock__text {
+    color: rgb(152, 172, 188);
+
+    font-size: 19px;
+}
+.content__miniblock {
+    color: rgb(185, 206, 223);
+}
+
+
+
+/* Last News */
+
+.last__news {
+    width: 500px;
+
+    margin: 10px 0px;
+
+    border-radius: 7px;
+
+    background-color: rgb(50, 50, 62);
 }
