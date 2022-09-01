@@ -126,7 +126,7 @@ a.a_logo .header__logo__text {
 
 .container {
     display: flex;
-    margin: 10px auto;
+    margin: 10px auto 20px;
     width: 100%;
     max-width: 1400px;
 
@@ -231,4 +231,38 @@ a.a_logo .header__logo__text {
     border-radius: 7px;
 
     background-color: rgb(50, 50, 62);
+}
+
+
+/* Footer */
+
+.footer {
+    color: rgb(156, 181, 189);
+    margin-top: 20px;
+}
+.block_footer {
+
+}
+.str_copyright {
+    display: flex;
+    justify-content: center;
+}
+.copy_year {
+    
+}
+.copy_name {
+    color: white;
+    margin-left: 10px;
+
+    /* font-weight: bold; */
+}
+.str_support {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 0px auto;
+}
+.developers {
+    /* margin: 10px auto; */
+    text-align: center;
 }
