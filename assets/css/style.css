@@ -122,6 +122,24 @@ a.a_logo .header__logo__text {
     margin: auto 15px;
 }
 
+.auth {
+    display: flex;
+    justify-items: center;
+}
+
+.but__header {
+    border-radius: 7px;
+    margin: 20px 20px;
+    text-decoration: none;
+}
+.login {
+    padding: 10px;
+    border: 2px solid rgb(0, 175, 245);
+}
+.logup {
+    padding: 15px;
+}
+
 /* Container */
 
 .container {
