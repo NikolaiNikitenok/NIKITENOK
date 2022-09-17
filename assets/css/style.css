@@ -28,6 +28,8 @@ header {
 
     border-radius: 10px;
     background-color: rgb(40, 40, 50);
+
+    box-shadow: 0 3px 6px rgb(77, 80, 95);
 }
 .header__logo {
     display: flex;
@@ -150,6 +152,8 @@ a.a_logo .header__logo__text {
 
     border-radius: 10px;
     background-color: rgb(40, 40, 50);
+
+    box-shadow: 0 0px 12px rgb(77, 80, 95);
 }
 
 /* Menu */
@@ -174,6 +178,21 @@ a.a_logo .header__logo__text {
     border-radius: 7px;
 
     background-color: rgb(50, 50, 62);
+}
+.main__portfolio {
+    margin: 10px 10px;
+
+    border-radius: 7px;
+
+    background-color: rgb(50, 50, 62);
+}
+.main__name {
+    color: white;
+    font-size: 30px;
+    
+    font-weight: bold;
+
+    margin: 10px;
 }
 .block {
     margin: 10px;
@@ -200,14 +219,26 @@ a.a_logo .header__logo__text {
     display: flex;
 
 }
-
+.portfolio__content__block {
+    display: flex;
+    width: 600px;
+}
 .miniblock {
     background-color: rgb(43, 52, 60);
 
     border-radius: 7px;
 
     padding: 10px;
+    margin: 5px;
+}
+.portfolio__miniblock {
+    background-color: rgb(43, 52, 60);
+    border-radius: 7px;
 
+    width: 150px;
+    height: 100px;
+
+    padding: 10px;
     margin: 5px;
 }
 .miniblock.shir {
@@ -258,15 +289,9 @@ a.a_logo .header__logo__text {
     color: rgb(156, 181, 189);
     margin-top: 20px;
 }
-.block_footer {
-
-}
 .str_copyright {
     display: flex;
     justify-content: center;
-}
-.copy_year {
-    
 }
 .copy_name {
     color: white;
