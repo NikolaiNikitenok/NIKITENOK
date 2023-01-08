@@ -124,23 +124,50 @@ a.a_logo .header__logo__text {
     margin: auto 15px;
 }
 
+
+
+
+/* Welcome page */
+
+
 .auth {
     display: flex;
     justify-items: center;
 }
 
 .but__header {
-    border-radius: 7px;
     margin: 20px 20px;
     text-decoration: none;
+    color: rgb(173, 181, 189);
+    font-weight: 700;
 }
+
+.but__header:hover {
+    color: #adf2f7;
+
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right bottom,#adf2f7 20%,  transparent 40%, transparent 60%, #adf2f7 90%);
+    border-image-slice: 1;
+}
+
 .login {
     padding: 10px;
-    border: 2px solid rgb(0, 175, 245);
+    ;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to left top,#adf2f7 10%,  transparent 30%, transparent 70%, #adf2f7 90%);
+    border-image-slice: 1;
+    
 }
 .logup {
-    padding: 15px;
+    padding: 10px;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to left top,#adf2f7 10%,  transparent 30%, transparent 70%, #adf2f7 90%);
+    border-image-slice: 1;
 }
+
+
+
+
 
 /* Container */
 
@@ -179,6 +206,10 @@ a.a_logo .header__logo__text {
 
     background-color: rgb(50, 50, 62);
 }
+.welcome.main {
+    width: 100%;
+}
+
 .main__portfolio {
     margin: 10px 10px;
 
